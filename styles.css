@@ -1,0 +1,169 @@
+body {
+    background-color: #0d1c31;;
+    color: #C0C8CE;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+hr {
+  border: 8px;
+  border-style: dotted;
+  border-bottom: 0px;
+  width: 50px;
+
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 50px;
+}
+
+.logo {
+    color: #ff811b;
+    display: inline;
+    margin: 10px;
+    text-align: left;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    display: inline;
+}
+
+.nav-item {
+    margin: 10px;
+    display: inline;
+    text-align: right;
+    float: right;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #C0C8CE;
+}
+
+/* Introduction */
+
+.intro {
+    padding: 5% 13% 0 13%;
+    margin: 0;
+}
+
+.container {
+  display: inline-block;
+  padding: 0 0 0 0;
+  padding: 17% 10% 0 0;
+}
+
+.big-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    background: -webkit-linear-gradient(10deg, #85ffc6, #00ff95 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.big-heading{
+  margin: 0 auto;
+  overflow: hidden;
+  border-right: .2em solid orange;
+  white-space: nowrap;
+  width: 0;
+  animation: 
+    typing 1s steps(10, end) forwards,
+    blink-caret .75s step-end infinite;
+    
+}
+  
+@keyframes typing {
+  from { width: 0;} 
+  to { width: 100%; }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+.description {
+    width: 60%;
+}
+
+.neil-img {
+    float: right;
+    height: 320px;
+    margin-top: 15%;
+}
+
+.contact_button {
+    -webkit-border-radius: 57px;
+    -moz-border-radius: 57px;
+    border-radius: 57px;
+    color: #05FFBB;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 20px;
+    background-color: #0d1c31;
+    border: solid #05FFBB 3px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 2% 13% 20%;
+}
+
+/* Get In Touch Form */
+
+input[type=text], textarea {
+    width: 30%;
+    padding: 12px;
+    border: 3px solid #FF5454;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color:#0d1c31;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* .container { */
+    /* border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #FF5F47;
+    font-size: 30px;
+  }/ */
+
+  blink {
+    -webkit-animation: .7s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+    animation: .7s linear infinite condemned_blink_effect;
+  }
+  
+
+  
+  @keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
